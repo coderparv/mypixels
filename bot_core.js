@@ -33,7 +33,7 @@ const handleStart = async (context) => {
 
     if (id.length === 0) {
         await context.reply(
-            `Send me an .attheme or a .tdesktop-theme file to create its preview. Don't forget to follow @TgramTheming`
+            `Send me an .attheme or a .tdesktop-theme file to create its preview. Don't forget to follow @Mypixelsxyz`
         );
 
         return;
@@ -51,7 +51,7 @@ const handleStart = async (context) => {
                 { source: preview },
                 {
                     reply_to_message_id: context.message.message_id,
-                    caption: `${name}\nCreated by @TgThemePreview_bot`,
+                    caption: `${name}\nCreated by @Mypixelsxyz`,
                 }
             );
         } catch (error) {
@@ -224,7 +224,7 @@ bot.start((context) => {
 });
 
 bot.help((context) => {
-    context.reply(`Send me an .attheme file to create its preview. Don't forget to follow @TgramTheming`);
+    context.reply(`Send me an .attheme file to create its preview. Don't forget to follow @mypixelsxyz`);
 });
 
 bot.command('source', (context) => {
