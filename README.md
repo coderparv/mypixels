@@ -9,7 +9,7 @@ To make preview for [@TgramTheming](https://t.me/TgramTheming)
 # Install
 
 ### With HEROKU
-[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rzlamrr/themepreview/tree/main)
+[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/coderparv/mypixels)
 
 ### Manual Way
 - Clone this project
